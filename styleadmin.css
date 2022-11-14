@@ -1,0 +1,237 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#icon {
+    width: 20px;
+    cursor: pointer;
+}
+
+.body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open sans' ,sans-serif;
+    background: white;
+   
+}
+
+.barber {
+    width: 100%;
+    margin: flex;
+    position: relative;
+    background: var(--primary-color);
+}
+
+.barber img {
+     margin-top: 10%;
+     margin-left: 50px;
+     margin-right: 20px;
+}
+
+.logo a {
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+    font-family: 'Courier New', Courier, monospace;
+    color:bisque;
+    background-color: black;
+}
+
+.container-header {
+    width: 90%;
+    margin: auto;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-color: black;
+    z-index: 1;
+    border: 3px white;
+}
+
+.menu {
+    float: right;
+    background: black; 
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: black;
+    z-index: 1;
+    border: 3px solid white;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li{
+    float: left;
+}
+
+nav ul li a{
+    color:bisque;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+section {
+    margin: 0px;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kalimat {
+    margin-top: 20%;
+    margin-bottom: 10%;
+}
+
+.kalimat .keterangan {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color: brown;
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 800;
+    font-size: 40px;
+    margin-bottom: 25px;
+    color: var(--secondary-color);
+    width: 100%;
+    line-height: 50px;
+    margin-right: 10%;
+}
+
+P {
+    color: brown;
+}
+
+a.tbl-biru {
+    background: #5C2E7E;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+p {
+   
+    padding: 10px 0px 10px 0px;
+}
+
+a.tbl-biru:hover {
+    background: #256D85;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.servis-list {
+    width: 80%;
+    position: relative;
+    display: inline;
+    flex-wrap: wrap;
+}
+
+
+.about img {
+    width: 20%;
+    border-radius: 10%;
+    float: left;
+    margin-top: 5%;
+    margin-left: 10%; 
+    margin-bottom: 5px;
+}
+
+#copyright{
+    text-align: center;
+    width: 100%;
+    padding: 20px 0px 20px 0px;
+    margin-top: 50px;
+    background-color: black;
+    color: #ffffff;
+}
+
+@media screen and (min-width:500px) and (max-width:900px) {
+    .barber {
+        width: 100%;
+        text-align: center;
+        display: block;
+    }
+    .logo a{
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .nav menu {
+        width: 100%;
+        margin: 0;
+    }
+
+    .nav menu ul {
+        text-align: center;
+        margin: auto;
+        line-height: 60px;
+    }
+
+    .nav .menu ul li {
+        display: inline-block;
+        float: none;
+    }
+
+    .section {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .kalimat {
+        display: block;
+    }
+
+    .kalimat p {
+        display: block;
+    }
+
+    .kalimat h2 {
+        display: block;
+    }
+
+    .section img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .kartu-cukur {
+        width: 50%;
+    }
+
+    .kartu-servis {
+        width: 50%;
+    }
+
+}
