@@ -1,4 +1,4 @@
-pppp
+
 <?php
 
     require 'config.php'; //menghentikan codingan dibawwahnya ketika ada eror sedangkan INCLUDE tetap jalan
