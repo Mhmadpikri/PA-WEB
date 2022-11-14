@@ -1,0 +1,87 @@
+body {
+    background-image: url("https://img.freepik.com/free-vector/barber-shop-hair-styling-tools-supplies-set-realistic-monochrome-top-view-with-shaving-brush-vector-illustration_1284-30216.jpg?w=1800&t=st=1666784375~exp=1666784975~hmac=1cf9e31e2618849d100b15640a03dbae6e499d984a06a1df2afde2940b1221f7");
+    padding: 25px;
+    background-repeat: repeat;
+    background-size: 100%;
+}
+
+.drop {
+    background-color:  #b0b6b9;
+    color: black;
+    width: 80%;
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 14%;
+  
+}
+
+h3 {
+    font-size: 30px;
+    text-align: center;
+}
+
+a {
+    font-size: 20px; 
+}
+.atas a {
+    font-size: 20px;
+    text-align: center;
+    margin-left: 25%;
+    background: #fff;
+}
+.judul {
+    text-align: center;
+}
+
+.drop form{
+    align-items: center;
+    text-align: left;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.drop form table {
+    padding: 0;
+    margin-left: 5%;
+    font-size: 20px;
+}
+
+.drop form table .judul {
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.drop form table tr td {
+    padding-left: 10px;
+    padding-bottom: 10px;
+    font-size: 30px;    
+} 
+
+select{
+    padding-top: 0;
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    border:2px solid bisque;
+    text-align: center;
+}
+
+select option{
+    padding-left: 1px;
+}
+
+.drop form table tr .input .daf{
+    background-color: bisque;
+    cursor: pointer;
+    width: 100%;
+    color: #06283D;
+    border-radius: 10px;
+    border: 2px solid bisque;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+}
