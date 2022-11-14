@@ -1,0 +1,57 @@
+body {
+    background-image: url("https://img.freepik.com/free-photo/vintage-barber-paper-jobs-career-concept_53876-127077.jpg?w=1800&t=st=1666181578~exp=1666182178~hmac=d55b714254bad0b4282428ca494a26b688a3201df61737ea6d7c73d4ade3965f");
+    padding: 25px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.down {
+    color: white;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 23%;
+    margin-left: 150px;
+    height: 200px;
+}
+
+.down a {
+    background-color: #fff;
+    font-size: 100%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.down table {
+
+    padding: 0;
+    margin-left: 5%;
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 30px;
+    text-align: left;
+}
+
+.down table .judul {
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.down table tr td {
+    padding-left: 10px;
+    width: fit-content;
+    padding-bottom: 10px;
+    font-size: 20px;   
+
+}
+table{
+    position: absolute;
+    left: 16%;
+
+}
+
+.edit form input{
+    text-align: center;
+    margin-left: 70%;
+}
